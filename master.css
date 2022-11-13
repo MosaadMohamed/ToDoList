@@ -1,0 +1,88 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4f4f4f4;
+    border-radius: 10px;
+}
+  /* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+  /* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+  /* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+.container {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.container .parent .input-area{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container .parent .input-area input{
+    border: none;
+    outline: none;
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.container .parent .input-area button{
+    width: 30%;
+    border: none;
+    background-color: rgb(41, 189, 53);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.container .parent .input-area button:hover{
+    background-color: green;
+}
+.container .tasks .task{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+.container .tasks .task span{
+    background-color: rgb(187, 14, 14);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container .tasks .task:hover{
+    background-color: #eee;
+}
+.container .tasks .task span:hover{
+    background-color: red;
+}
